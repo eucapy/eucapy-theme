@@ -1,4 +1,36 @@
+# Copyright (c) 2024 - Presente José Guilherme Cerqueira de Oliveira <aluno.jose.cerqueira@doctum.edu.br>
+# This source code is licensed under the MIT license found in the license file.
+
+# Padrão de caminho para ignorar os arquivos e diretórios.
+# Veja https://git-scm.com/docs/gitignore para mais detalhes.
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/logs/*
+
+# Environment
+/.env.*
+
+# Sass
 .sass-cache/
 *.css.map
 *.sass.map
 *.scss.map
+
+# IDEs
+.vscode/
+
+# Distribution
+/dist/*
+!/dist/theme.css
+
+# Temporary files
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db

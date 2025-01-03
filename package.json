@@ -1,0 +1,12 @@
+{
+  "name": "eucapy-tema",
+  "version": "1.0.0",
+  "description": "A color palette comfortable to your eyes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "@guilhermecerqueiraoliveira",
+  "license": "MIT"
+}
