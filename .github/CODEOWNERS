@@ -1,0 +1,24 @@
+# Copyright (c) 2024 José Guilherme Cerqueira de Oliveira <aluno.jose.cerqueira@doctum.edu.br>
+# This source code is licensed under the MIT license found in the license file.
+
+# CODEOWNERS para o repositório eucapy <https://github.com/eucapy/eucapy-tema>
+# Configuração do GitHub que solicita automaticamente revisões dos proprietários do código
+# quando um pull request altera quaisquer arquivos de propriedade.
+
+# Veja mais sobre:
+#   1. https://github.com/blog/2392-introducing-code-owners
+#   2. https://docs.github.com/pt/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners#codeowners-file-location
+
+
+
+# Dono de todo o repositório
+* @guilhermecerqueiraoliveira
+
+# Responsável pelos arquivos Sass
+*.scss @guilhermecerqueiraoliveira
+
+# Responsável pelos arquivos CSS gerados (se aplicável)
+*.css @guilhermecerqueiraoliveira
+
+# Responsável por configurações específicas no GitHub
+.github/* @guilhermecerqueiraoliveira
